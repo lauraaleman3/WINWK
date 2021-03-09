@@ -1,0 +1,37 @@
+#container {
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+}
+
+
+.column {
+    float: left;
+  }
+  
+  .left, .right {
+    width: 25%;
+  }
+  
+  .middle {
+    width: 50%;
+  }
+
+#tip {
+  background-color: gray;
+  color:white;
+  
+}
+.tip-color {
+  background-color: black;
+}
+
+button {
+  background-color: gray;
+  color: black;
+}
+ button:hover {
+   color: white;
+   }
+
+

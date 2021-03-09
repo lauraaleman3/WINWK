@@ -1,0 +1,21 @@
+Banner: Pro Tipper
+
+Bill total $______
+(manually entered)
+
+
+Tip percentage _______% (+)
+(total * %)		(-)
+
+
+
+
+Split Bill ______  (+)
+(# of ppl entered) (-)
+
+
+Amount due $ _________
+((total + tip)/# of ppl) 
+
+
+Links to Tips

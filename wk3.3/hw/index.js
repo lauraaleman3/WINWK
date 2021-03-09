@@ -24,3 +24,13 @@ function removeNewElement() {
        e.style.display = 'block';
  }
 
+
+// // class remove item
+// let tasks = document.getElementsByClassName('.candidate');
+// console.log(tasks); // // task
+// tasks.map(node => {
+//     node[i].addEventListener("click", function(event){
+//     console.log(event);
+//     tasks[0].remove();
+// }
+// )})

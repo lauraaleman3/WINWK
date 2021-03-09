@@ -1,0 +1,89 @@
+button {
+    background-color: teal;
+    color: white;
+    border: rgb(31, 202, 202) solid 5px;
+   
+  }
+   button:hover {
+     color: lightgray;
+     
+     }
+body{
+  background: url('https://media.cntraveler.com/photos/5b22bfdff04a775484b99dfc/16:9/w_1600%2Cc_limit/Alo-Restaurant__2018_Raffi-Photo-2.jpg')  no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;;
+  font-family: 'RocknRoll One', sans-serif;
+  font-size: larger;
+}
+
+.but-center{
+  text-align: center;
+}
+
+
+.jumbotron {
+  background: url('https://preview.pixlr.com/images/800wm/1302/1/1302101386.jpg') no-repeat ;
+  color: white;
+  font-family: 'RocknRoll One', sans-serif;
+
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;;
+  
+}
+
+
+.form-group{
+  border:  rgb(31, 202, 202) solid 5px;
+  background: lightgray;
+  color: teal;
+  
+}
+
+#bill{
+  background: url('https://metro.co.uk/wp-content/uploads/2017/11/money_friends_erin_illo.png');
+  background-position: center;
+  color: teal;
+  border:rgb(31, 202, 202) solid 5px;
+  text-align: center;
+  
+}
+
+#split{
+  background: url('https://metro.co.uk/wp-content/uploads/2017/11/money_friends_erin_illo.png');
+  background-size: 190%;
+  color: teal;
+  border-top: rgb(31, 202, 202) solid 5px;
+  border-bottom:  rgb(31, 202, 202) solid 5px;
+  text-align: center;
+}
+
+#qual{
+  color: white;
+  background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrsmBjAaawEHx8n8RuiDTKJmVi1qGlddd_XA&usqp=CAU');
+  background-size: 150%;
+  border:rgb(31, 202, 202) solid 5px;
+  text-align: center;
+  
+}
+
+
+footer {
+  padding-top: 60px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background: rgb(31, 202, 202)
+}
+.card-group {
+  padding-top: 60px;
+}
+
+.radiobut{
+text-align: left;
+
+}
