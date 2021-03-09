@@ -8,6 +8,7 @@ button {
      color: lightgray;
      
      }
+
 body{
   background: url('https://media.cntraveler.com/photos/5b22bfdff04a775484b99dfc/16:9/w_1600%2Cc_limit/Alo-Restaurant__2018_Raffi-Photo-2.jpg')  no-repeat center center fixed; 
   -webkit-background-size: cover;
@@ -16,13 +17,14 @@ body{
   background-size: cover;;
   font-family: 'RocknRoll One', sans-serif;
   font-size: larger;
+  padding-bottom: 100px;
 }
 
 .but-center{
   text-align: center;
 }
 
-
+/* HEADER */
 .jumbotron {
   background: url('https://preview.pixlr.com/images/800wm/1302/1/1302101386.jpg') no-repeat ;
   color: white;
@@ -32,7 +34,7 @@ body{
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;;
-  
+  text-align: center;
 }
 
 
@@ -43,6 +45,7 @@ body{
   
 }
 
+/* BILL TOTAL */
 #bill{
   background: url('https://metro.co.uk/wp-content/uploads/2017/11/money_friends_erin_illo.png');
   background-position: center;
@@ -52,6 +55,7 @@ body{
   
 }
 
+/* SPLIT */
 #split{
   background: url('https://metro.co.uk/wp-content/uploads/2017/11/money_friends_erin_illo.png');
   background-size: 190%;
@@ -61,6 +65,7 @@ body{
   text-align: center;
 }
 
+/* HOW WAS YOUR SERVICE */
 #qual{
   color: white;
   background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrsmBjAaawEHx8n8RuiDTKJmVi1qGlddd_XA&usqp=CAU');
@@ -72,7 +77,7 @@ body{
 
 
 footer {
-  padding-top: 60px;
+  padding-top: 2px;
   position: fixed;
   left: 0;
   bottom: 0;
@@ -87,3 +92,17 @@ footer {
 text-align: left;
 
 }
+
+@media (max-width: 880px) {
+
+  .container-fluid .footer-left,
+  .container-fluid .footer-center,
+  .container-fluid .footer-right{
+      display: block;
+      width: 100%;
+      margin-bottom: 40px;
+      text-align: center;
+      
+  }
+
+ 
