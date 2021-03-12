@@ -1,0 +1,13 @@
+body{
+    background: teal;
+}
+
+button {
+    background:cadetblue;
+    border: darkblue 2px solid;
+    color: white;
+}
+
+button:hover {
+    background-color: gray;
+}
