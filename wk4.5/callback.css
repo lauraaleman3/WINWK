@@ -1,13 +1,49 @@
 body{
-    background: teal;
+    background: url("redflower.jpg") no-repeat center center fixed;
+    font-size: larger;
+    -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;;
+      padding-left: 100px;
+      padding-right: 100px;
 }
 
 button {
-    background:cadetblue;
-    border: darkblue 2px solid;
+    background: rgb(23, 145, 23);
+    border: white 2px solid;
     color: white;
+    padding: 10px;
 }
 
 button:hover {
-    background-color: gray;
+    background-color: maroon;
+}
+
+#border{
+    border: 2px solid white;
+    padding: 20px;
+        background-color: rgb(78, 10, 10);
+        color: white;
+        opacity: 0.90;
+        text-align: center;
+        
+}
+
+#btmsection {
+    display: flex;
+    justify-content: center;
+}
+
+
+#btnsec{
+    display: flex;
+    justify-content: center; 
+}
+h1 {
+    text-align: center;
+}
+h2{
+text-align: center;
+ 
 }
